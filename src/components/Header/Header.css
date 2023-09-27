@@ -16,4 +16,9 @@
   // Other styles as needed
 }
 
+.hero-title {
+  color: bisque;
+  text-shadow: 1px 1px 3px #4b4d4c, 2px 2px 3px #2c2e2d, 3px 3px 3px #070808;
+}
+
   

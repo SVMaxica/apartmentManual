@@ -14,7 +14,7 @@ body, html {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 200px; 
+  height: 250px; 
   width: 100vw;
 }
 
@@ -23,3 +23,21 @@ body, html {
   flex-direction: column;
   align-items: center;
 }
+
+h1 {
+  color: grey;
+}
+
+p {
+  text-align: left;
+  color: grey;
+ }
+
+ li {
+  color: grey;
+  text-align: left;
+ }
+
+ p {
+  padding-right: 15px;
+ }

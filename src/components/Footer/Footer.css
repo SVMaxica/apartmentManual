@@ -1,8 +1,28 @@
 .footer {
-    background: linear-gradient(rgba(245, 245, 220, 0.5), rgba(245, 245, 220, 0.5));
+ width: 90% !important;
+ margin-left: 7px;
+text-align: center;
   padding: 10px;
   border-radius: 8px; /* Rounded corners */
   width: 100%; /* or any specific width */
   box-sizing: border-box;
   margin-bottom: 16px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+}
+
+h4 {
+  color: grey;
+}
+
+.email-link{
+  color: grey;
+  text-decoration: underline;
+}
+
+.email-link:hover {
+  color: lightgrey;
 }
