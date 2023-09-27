@@ -1,0 +1,22 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #74c3b4; /* Light olive green */
+  font-family: 'Arial', sans-serif;
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+

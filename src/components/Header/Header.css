@@ -1,0 +1,20 @@
+/* Header/Header.css */
+.header {
+    width: 100%;
+    background-position: center;
+  background-size: cover; /* Make sure your image covers the whole header */
+  background-repeat: no-repeat;
+  height: 200px; /* Adjust as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; /* Adjust text color as needed */
+  text-shadow: 1px 1px 2px black; /* Optional: for better text visibility on top of the image */
+  }
+  
+  /* src/components/Header/Header.css */
+.header img {
+    max-width: 100%;
+    height: auto;
+  }
+  

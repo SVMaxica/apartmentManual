@@ -1,0 +1,8 @@
+.footer {
+    background: linear-gradient(rgba(245, 245, 220, 0.5), rgba(245, 245, 220, 0.5));
+  padding: 10px;
+  border-radius: 8px; /* Rounded corners */
+  width: 100%; /* or any specific width */
+  box-sizing: border-box;
+  margin-bottom: 16px; 
+}
