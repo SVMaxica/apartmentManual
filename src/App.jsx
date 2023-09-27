@@ -9,8 +9,9 @@ import { Footer } from './components/Footer/Footer';
 
 export const App = () => {
   return (
-    <div>
-      <Header /> {/* Using Header component */}
+      <div className="app">
+      <div className="top-background"></div> {/* Div with background image */}
+      <Header /> {/* Using Header componentng */}
       <IconsNavbar />
       <CheckIn />
       <CheckOut />

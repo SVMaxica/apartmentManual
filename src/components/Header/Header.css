@@ -1,20 +1,19 @@
 /* Header/Header.css */
+/* src/components/Header/Header.css */
 .header {
-    width: 100%;
-    background-position: center;
-  background-size: cover; /* Make sure your image covers the whole header */
-  background-repeat: no-repeat;
-  height: 200px; /* Adjust as needed */
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
   display: flex;
   align-items: center;
-  justify-content: center;
-  color: white; /* Adjust text color as needed */
-  text-shadow: 1px 1px 2px black; /* Optional: for better text visibility on top of the image */
-  }
-  
-  /* src/components/Header/Header.css */
-.header img {
-    max-width: 100%;
-    height: auto;
-  }
+  justify-content: flex-start;
+  padding-left: 30px;
+  color: white; // Or any color you prefer for the text
+  text-shadow: 1px 1px 2px black; // Optional: for better text visibility
+  // Other styles as needed
+}
+
   

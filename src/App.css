@@ -1,22 +1,25 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-
-/* App.css */
-body {
+/* src/App.css */
+body, html {
+  background-color: rgb(140, 187, 212);
   margin: 0;
   padding: 0;
-  background-color: #74c3b4; /* Light olive green */
+  width: 100%;
+  box-sizing: border-box;
   font-family: 'Arial', sans-serif;
+
 }
 
-.app-wrapper {
+.top-background {
+  background-image: url('/Users/sandragustafsson/Desktop/lägenhetsmanual/apartmentManual/src/assets/stone-1995051_1920.jpg'); 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px; 
+  width: 100vw;
+}
+
+.app {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
