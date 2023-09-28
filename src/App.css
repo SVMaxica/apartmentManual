@@ -1,5 +1,8 @@
 /* src/App.css */
+
 body, html {
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Satisfy', cursive;
   background-color: rgb(140, 187, 212);
   margin: 0;
   padding: 0;
@@ -24,9 +27,6 @@ body, html {
   align-items: center;
 }
 
-h1 {
-  color: grey;
-}
 
 p {
   text-align: left;

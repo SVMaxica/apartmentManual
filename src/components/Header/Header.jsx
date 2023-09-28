@@ -1,10 +1,16 @@
+/* eslint-disable react/prop-types */
 
 import './Header.css';
 
 export const Header = () => {
     return (
         <header className="header">
-            <h1 className='hero-title'>Header</h1>
+            <div className="small-text-title" style={{ fontFamily: 'Quicksand, sans-serif' }}>
+                <h2 className='hero-title'>Welcome to</h2>
+            </div >
+            <div className='big-text-title' style={{ fontFamily: 'Satisfy, cursive' }}>
+                <h1><b>Snäck!</b></h1>
+            </div>
         </header>
     );
 }

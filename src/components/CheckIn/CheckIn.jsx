@@ -1,11 +1,11 @@
-
+/* eslint-disable react/prop-types */
 import './CheckIn.css';
 
 export const CheckIn = () => {
     return (
-        <div className='check-in'>
+        <div className='check-in' style={{ fontFamily: 'Quicksand, sans-serif' }}>
             <h1>Check In</h1>
-            <p ClassName="check-in-text">Check-in is from <b>16:00</b> at the earliest (Sometimes we allow earlier check-in, but this is only if the apartment has not been booked the day before, and only by agreement)<br>
+            <p className="check-in-text">Check-in is from <b>16:00</b> at the earliest (Sometimes we allow earlier check-in, but this is only if the apartment has not been booked the day before, and only by agreement)<br>
             </br><br></br>
 When you arrive at <b>Snäckgärdsvägen 56</b>, you will pick up the key card and tag in <b>keybox nr 3</b> located to the left of the entrance (see picture). 
 The code for the box you have received in the check-in message.<br>

@@ -1,15 +1,14 @@
 .check-in {
   width: 90% !important;
 text-align: center;
- margin-left: 7px;
-    background: linear-gradient(rgba(245, 245, 220, 0.5), rgba(245, 245, 220, 0.5));
-  padding: 10px;
+ /*margin-left: 7px;*/
+    background: linear-gradient(rgba(205, 237, 247, 0.5), rgba(238, 222, 55, 0.5));
+    padding-left: 60px;
+    padding-right: 30px;
+    padding-bottom: 50px;
   border-radius: 8px; /* Rounded corners */
   width: 100%; /* or any specific width */
   box-sizing: border-box;
   margin-bottom: 16px; 
 }
 
-.check-in p {
-  padding-left: 20px;
-}

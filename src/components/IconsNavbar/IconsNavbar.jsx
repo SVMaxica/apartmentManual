@@ -1,4 +1,4 @@
-
+/* eslint-disable react/prop-types */
 import './IconsNavbar.css';
 
 export const IconsNavbar = () => {

@@ -1,9 +1,9 @@
-
+/* eslint-disable react/prop-types */
 import './CheckOut.css';
 
 export const CheckOut = () => {
     return (
-        <div className='check-out'>
+        <div className='check-out' style={{ fontFamily: 'Quicksand, sans-serif' }}>
             <h1>CheckOut</h1>
             <ul>
             <li>The latest time for checkout is at 11:00 on the day of departure, and the supervisor will arrive shortly thereafter.</li>
