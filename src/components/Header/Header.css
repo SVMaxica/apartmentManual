@@ -16,11 +16,12 @@
 }
 
 /* Assuming you have a Header.css file */
-.big-text-title {
+.big-text-title h1{
   color: rgb(234, 226, 194);
   margin-left: -50%; 
  margin-top: -40px;
  font-size: 20px;
+ font
 }
 
 /* Style for the small-text-title if you need it */
