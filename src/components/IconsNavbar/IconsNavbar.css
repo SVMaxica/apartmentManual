@@ -1,5 +1,8 @@
 
+
+
 .icon-navbar {
+  /* Any styles you want for the navbar itself */
   width: 90% !important;
 
   text-align: center;
@@ -10,8 +13,45 @@ margin-top: 16px;
   width: 100%; /* or any specific width */
   box-sizing: border-box;
   margin-bottom: 16px; 
-  background: linear-gradient(rgba(245, 245, 220, 0.5), rgba(245, 245, 220, 0.5));
+  /*background: linear-gradient(rgba(245, 245, 220, 0.1), rgba(245, 245, 220, 0.1));*/
+  display: flex;
+  justify-content: space-around;
 }
 
+.icon-container {
+  background-color:rgba(226, 215, 179, 0.7);
+  box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75); 
+  margin-top: 0;
+  margin-bottom: 5px;
+  width: 70px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* Add space between icon and text */
+  border: 4px solid grey;
+  border-radius: 8px;
+  padding: px;
+  cursor: pointer;
+}
 
-  
+.icon-container p {
+  color: rgb(91, 88, 88);
+  font-family: Quicksand, sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+  padding-top: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 5px;
+  font-size: 12px;
+}
+
+.svg-icon {
+  padding-top:8px;
+}
+
+.icon-container:hover {
+  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
+}

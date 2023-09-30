@@ -8,12 +8,17 @@ body, html {
   padding: 0;
   width: 100%;
   box-sizing: border-box;
-  font-family: 'Arial', sans-serif;
+  
+  /*font-family: 'Arial', sans-serif;*/
 
 }
 
+h1 {
+  font-family: Satisfy, sans-serif;
+}
+
 .top-background {
-  background-image: url('/Users/sandragustafsson/Desktop/lägenhetsmanual/apartmentManual/src/assets/stone-1995051_1920.jpg'); 
+  background-image: url('/Users/sandragustafsson/Desktop/lägenhetsmanual/apartmentManual/src/assets/stone-img.jpg'); 
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -29,7 +34,7 @@ body, html {
 
 
 p {
-  text-align: left;
+  text-align: center;
   color: grey;
  }
 
@@ -41,3 +46,5 @@ p {
  p {
   padding-right: 15px;
  }
+
+ 

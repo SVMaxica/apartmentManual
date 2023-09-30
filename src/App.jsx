@@ -10,11 +10,17 @@ import { Footer } from './components/Footer/Footer';
 
 
 export const App = () => {
+
+  const [activeComponent, setActiveComponent] = useState('');
+
   return (
     <div className="app">
       <div className="top-background"></div> 
       <Header /> 
-      <IconsNavbar />
+      <IconsNavbar setActiveComponent={setActiveComponent} />
+      {activeComponent === 'CheckIn' && <CheckIn />}
+      {activeComponent === 'CheckOut' && <CheckOut />}
+      {activeComponent === 'Houserules' && <Houserules />}
       <CheckIn />
       <Houserules />
       <CheckOut />
