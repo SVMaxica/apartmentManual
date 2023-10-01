@@ -18,7 +18,7 @@ h1 {
 }
 
 .top-background {
-  background-image: url('/Users/sandragustafsson/Desktop/lägenhetsmanual/apartmentManual/src/assets/stone-img.jpg'); 
+  background-image: url('/Users/sandragustafsson/Desktop/lägenhetsmanual/apartmentManual/public/stone-img.jpg'); 
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

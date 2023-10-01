@@ -7,10 +7,10 @@ export const IconsNavbar = ({ setActiveComponent }) => {
         <div className="icon-container" onClick={() => setActiveComponent('CheckIn')}>
           <svg 
             xmlns="http://www.w3.org/2000/svg" 
-            shape-rendering="geometricPrecision" 
-            text-rendering="geometricPrecision" 
-            image-rendering="optimizeQuality" 
-            fill-rule="evenodd" 
+            shapeRendering="geometricPrecision" 
+            textRendering="geometricPrecision" 
+            imageRendering="optimizeQuality" 
+            fillRule="evenodd" 
             clipRule="evenodd" 
             viewBox="0 0 442 512.06" 
             className="svg-icon" // add class for styling
