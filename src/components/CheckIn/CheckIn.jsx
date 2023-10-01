@@ -9,7 +9,7 @@ export const CheckIn = () => {
             </br><br></br>
 When you arrive at <b>Snäckgärdsvägen 56</b>, you will pick up the key card and tag next to the big entrance in <b>keybox nr 3</b> located to the left of the entrance (see picture). 
 The code for the box you have received in the check-in message.<br>
-</br><img className="keybox-img" src="./apartmentManual/keybox.jpg" alt="keybox"/>
+</br><img className="keybox-img" src="src/assets/keybox.jpg" alt="keybox"/>
 <br></br>
 When you collected keytag in the box you drive to the north short side of the house and blip the tag, then drive into the garage.
  You are allowed to park in the 7th spot on the right side; it is marked with no. <b>112</b> (see picture).<br>
