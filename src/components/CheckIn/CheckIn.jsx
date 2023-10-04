@@ -12,13 +12,12 @@ The code for the box you have received in the check-in message.<br>
 </br><img className="keybox-img" src="images/keybox.jpg" alt="keybox"/>
 <br></br>
 When you collected keytag in the box you drive to the north short side of the house and blip the tag, then drive into the garage.
- You are allowed to park in the 7th spot on the right side; it is marked with no. <b>112</b> (see picture).<br>
+ You are allowed to park in the 7th spot on the right side; it is marked with no. <b>112</b><img className="garage-img" src="images/garagebild.png" alt="garage"/><br>
  </br><br></br>
 After that, walk through the garage to the grey door by the metal railing and blip the tag, the door will then open, and you can enter the corridor and take the elevator to the first floor or go up one floor by the stairs.
  Continue past the elevators and turn left at the mailboxes, go through the glass door into the corridor all the way to door no. <b>112</b>.<br>
  </br><br></br>
 Insert the key card in the door and open. Remember to remove the key card from the door when you enter the apartment.
-The WiFi network name is ______________ The password is _____________
 </p>
         </div>
     );

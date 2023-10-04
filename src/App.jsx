@@ -7,7 +7,10 @@ import { CheckIn } from './components/CheckIn/CheckIn';
 import { Houserules } from './components/Houserules/Houserules';
 import { CheckOut } from './components/CheckOut/CheckOut';
 import { Footer } from './components/Footer/Footer';
-
+import { Pool } from './components/Pool/Pool';
+import { Tennis } from './components/Tennis/Tennis';
+import { Garbage } from './components/Garbage/Garbage';
+import { StarterPack } from './components/StarterPack/StarterPack';
 
 export const App = () => {
 
@@ -23,6 +26,10 @@ export const App = () => {
       {activeComponent === 'Houserules' && <Houserules />}
       <CheckIn />
       <Houserules />
+      <Garbage />
+      <StarterPack />
+      <Pool />
+      <Tennis />
       <CheckOut />
       <Footer />
     </div>
