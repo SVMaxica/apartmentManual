@@ -1,11 +1,13 @@
 /* src/App.css */
-
+/* * {
+  border: 1px solid red;
+} */
 body, html {
   font-family: 'Quicksand', sans-serif;
-  background-color: rgb(140, 187, 212);
+  
   margin: 0;
   padding: 0;
-  width: 100%;
+  width: 100vw;
   box-sizing: border-box;
   
   /*font-family: 'Arial', sans-serif;*/
@@ -21,7 +23,7 @@ h1 {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 250px; 
+  height: 260px; 
   width: 100vw;
 }
 
@@ -34,16 +36,20 @@ h1 {
 
 p {
   text-align: center;
-  color: grey;
+  color: rgb(91, 88, 88);
  }
 
  li {
-  color: grey;
+  color: rgb(91, 88, 88);
   text-align: left;
  }
-
+/* 
  p {
   padding-right: 15px;
- }
+ } */
 
- 
+ /* @media (min-width: 425px ) {
+  .top-background {
+    width: 100vw;
+  }
+ } */

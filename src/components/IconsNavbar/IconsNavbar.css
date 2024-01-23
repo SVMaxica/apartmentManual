@@ -2,35 +2,45 @@
 
 
 .icon-navbar {
-  /* Any styles you want for the navbar itself */
-  width: 90% !important;
-
+  width: 100%;
   text-align: center;
-margin-top: 16px;
-/*margin-left: 7px;*/
-  padding: 10px;
-  border-radius: 8px; /* Rounded corners */
-  width: 100%; /* or any specific width */
+  padding: 20px;
   box-sizing: border-box;
-  margin-bottom: 16px; 
-  /*background: linear-gradient(rgba(245, 245, 220, 0.1), rgba(245, 245, 220, 0.1));*/
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(140, 187, 212);
 }
+.icon-navbar h2 {
+  color: rgb(91, 88, 88);
+}
+.icons-wrapper {
+  /* display: flex;
+  flex-direction: row; */
+  display: flex;
+    flex-wrap: wrap; /* Allows items to wrap onto new lines */
+    justify-content: space-around; /* Distributes space evenly around items */
+    align-items: flex-start; /* Aligns items to the start of the container */
+  gap: 20px;
+  height: auto;
 
+}
+.icon-container .svg-icon {
+  width: 25px;
+}
 .icon-container {
-  background-color:rgba(226, 215, 179, 0.7);
+  background-color: antiquewhite;
   box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75); 
   margin-top: 0;
   margin-bottom: 5px;
-  width: 70px;
-  height: 60px;
+  width: 65px;
+  height: 65px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between; /* Add space between icon and text */
-  border: 4px solid grey;
-  border-radius: 8px;
+  /* justify-content: space-between;  */
+  /* border: 4px solid grey; */
+  border-radius: 20px 0 20px 20px;
   padding: px;
   cursor: pointer;
 }
@@ -41,7 +51,7 @@ margin-top: 16px;
   margin-top: 0;
   margin-bottom: 0;
   margin-right: 0;
-  padding-top: 5px;
+
   padding-left: 0px;
   padding-right: 0px;
   padding-bottom: 5px;
