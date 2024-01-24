@@ -44,13 +44,9 @@ p {
   color: rgb(91, 88, 88);
   text-align: left;
  }
-/* 
- p {
-  padding-right: 15px;
- } */
 
- /* @media (min-width: 425px ) {
+ @media screen and (min-width: 701px) {
   .top-background {
-    width: 100vw;
+    height: 400px;
   }
- } */
+}
