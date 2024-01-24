@@ -32,14 +32,10 @@
 
   .grocery-store a {
     color: rgb(91, 88, 88)
+    transition: transform 0.3s ease;
   }
-
-  
-   .grocery-store a {
-      transition: transform 0.3s ease;
-    }
     
-   .grocery-store :hover {
+   .grocery-store a :hover {
       transform: scale(1.2);
     }
   
