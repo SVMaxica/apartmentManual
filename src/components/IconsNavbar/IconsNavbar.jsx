@@ -79,6 +79,15 @@ export const IconsNavbar = ({ setActiveComponent }) => {
             <b>Tennis</b>
           </p>
         </div>
+        <div
+          className="icon-container"
+          onClick={() => setActiveComponent("GroceryStores")}
+        >
+          <img src={tennisIcon} alt="Grocery stores" className="svg-icon" />
+          <p className="icon-text">
+            <b>Grocery Stores</b>
+          </p>
+        </div>
         {/* Similarly for other icons */}
       </div>
     </nav>

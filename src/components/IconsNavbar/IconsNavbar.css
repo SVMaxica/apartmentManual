@@ -10,6 +10,7 @@
   justify-content: center;
   flex-direction: column;
   background-color: rgb(140, 187, 212);
+  margin-top: 50px;
 }
 .icon-navbar h2 {
   color: rgb(91, 88, 88);

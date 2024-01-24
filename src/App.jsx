@@ -12,6 +12,7 @@ import { Tennis } from "./components/Tennis/Tennis";
 import { Garbage } from "./components/Garbage/Garbage";
 import { StarterPack } from "./components/StarterPack/StarterPack";
 import { About } from "./components/About/About";
+import { GroceryStore } from "./components/GroceryStore/GroceryStore";
 
 export const App = () => {
   const [activeComponent, setActiveComponent] = useState("");
@@ -29,6 +30,8 @@ export const App = () => {
       {activeComponent === "Tennis" && <Tennis />}
       {activeComponent === "Pool" && <Pool />}
       {activeComponent === "StarterPack" && <StarterPack />}
+      {activeComponent === "GroceryStores" && <GroceryStore />}
+      {/* <GroceryStore /> */}
       {/* <CheckIn />
       <Houserules />
       <Garbage />
