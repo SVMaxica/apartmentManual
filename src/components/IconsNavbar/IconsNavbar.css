@@ -12,9 +12,11 @@
   align-items: center;
   background-color: rgb(140, 187, 212);
   margin-top: 50px;
+  padding-bottom: 50px;
 }
 .icon-navbar h2 {
   color: rgb(91, 88, 88);
+  padding-bottom: 25px;
 }
 .icons-wrapper {
   /* display: flex;

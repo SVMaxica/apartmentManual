@@ -1,25 +1,36 @@
 .footer {
-text-align: center;
+  text-align: center;
   padding: 10px;
   width: 100%; 
   box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
-  background-color: white;
-
-}
-
-h4 {
-  color: rgb(91, 88, 88);
+  flex-direction: column;
 }
 
 .email-link{
   color: rgb(91, 88, 88);
-  text-decoration: underline;
+  font-weight: 600;
+  text-decoration: none;
+  background-color:  #f9a37597;
+  padding: 5px;
+  border-radius: 4px;
+  width: 50px;
 }
 
 .email-link:hover {
-  color: lightgrey;
+  background-color: rgb(251, 172, 172);
+  transform: scale(1.2);
+}
+
+.copywright {
+  font-size: 8px;
+}
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: x-small;
+  gap: 10px;
 }

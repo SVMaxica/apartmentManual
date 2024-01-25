@@ -24,21 +24,15 @@ export const App = () => {
       <About />
       <IconsNavbar setActiveComponent={setActiveComponent} />
       {activeComponent === "CheckIn" && <CheckIn />}
-      {activeComponent === "CheckOut" && <CheckOut />}
+      {activeComponent === "CheckOut" && (
+        <CheckOut setActiveComponent={setActiveComponent} />
+      )}
       {activeComponent === "Houserules" && <Houserules />}
       {activeComponent === "Garbage" && <Garbage />}
       {activeComponent === "Tennis" && <Tennis />}
       {activeComponent === "Pool" && <Pool />}
       {activeComponent === "StarterPack" && <StarterPack />}
       {activeComponent === "GroceryStores" && <GroceryStore />}
-      {/* <GroceryStore /> */}
-      {/* <CheckIn />
-      <Houserules />
-      <Garbage />
-      <StarterPack />
-      <Pool />
-      <Tennis />
-      <CheckOut /> */}
       <Footer />
     </div>
   );

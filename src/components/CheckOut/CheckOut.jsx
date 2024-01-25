@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import "./CheckOut.css";
 
-export const CheckOut = () => {
+export const CheckOut = ({ setActiveComponent }) => {
   return (
     <div className="check-out-wrapper">
       <div
@@ -11,14 +11,17 @@ export const CheckOut = () => {
         <h1>CheckOut</h1>
         <ul>
           <li>
-            The latest time for checkout is at 11:00 on the day of departure,
-            and the supervisor will arrive shortly thereafter.
+            The latest time for checkout is at <b>11:00</b> on the day of
+            departure, and the supervisor will arrive shortly thereafter.
           </li>
 
           <li>
             {" "}
             If anything has been broken during your stay, we would appreciate it
-            if you could email and inform us at visbysnack@gmail.com
+            if you could<br></br>
+            <a href="mailto:visbysnack@gmail.com" className="mail-us-link">
+              Mail us
+            </a>
           </li>
 
           <li>
@@ -27,7 +30,19 @@ export const CheckOut = () => {
 
           <li>
             Dispose of your trash in the garbage room, you will find directions
-            to the garbage room at ______________
+            to the garbage room<br></br>
+            <span
+              className="link"
+              onClick={() => setActiveComponent("Garbage")}
+              style={{
+                cursor: "pointer",
+                textDecoration: "none",
+                // color: "black",
+              }}
+            >
+              {" "}
+              Here
+            </span>
           </li>
 
           <li>Place all used towels in a pile on the bathroom floor.</li>
@@ -52,9 +67,9 @@ export const CheckOut = () => {
           </li>
 
           <li>
-            Feel free to leave feedback at the email{" "}
-            <a href="visbysnack@gmail.com" className="email-link">
-              visbysnack@gmail.com
+            Feel free to leave feedback{" "}
+            <a href="mailto:visbysnack@gmail.com" className="mail-us-link">
+              Here
             </a>
           </li>
 

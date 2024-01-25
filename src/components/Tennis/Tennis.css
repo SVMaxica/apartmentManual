@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
+  padding-bottom: 50px;
 }
 
 .tennis {
@@ -11,11 +12,10 @@
    text-align: center;
    background: white;
       padding-left: 30px;
-      padding-right: 50px;
+      padding-right: 30px;
       padding-bottom: 50px;
     border-radius: 8px;
     box-sizing: border-box;
-    margin-bottom: 16px; 
   }
   
   li {
@@ -31,17 +31,16 @@
   }
 
   .tenniscourt-img {
-    width: 60%; 
+    width: 95%; 
   height: auto; 
-  margin-top: 50px;
-  margin-bottom: 50px;
+  border-radius: 8px;
   }
 
   .tennis-img {
-    width: 60%; 
+    width: 95%; 
   height: auto; 
-  margin-top: 50px;
-  margin-bottom: 50px;
+  border-radius: 8px;
+  margin-bottom: 30px;
   }
 
   @media screen and (min-width: 701px) {

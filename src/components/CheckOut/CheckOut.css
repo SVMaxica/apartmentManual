@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
+  padding-bottom: 50px;
 }
 
 .check-out {
@@ -11,11 +12,10 @@
  text-align: center;
  background: white;
     padding-left: 30px;
-    padding-right: 50px;
+    padding-right: 30px;
     padding-bottom: 50px;
   border-radius: 8px; 
   box-sizing: border-box;
-  margin-bottom: 16px; 
 }
 
 li {
@@ -28,6 +28,43 @@ li {
   font-size: 40px;
   color: rgb(91, 88, 88);
 }
+
+.mail-us-link {
+  color: rgb(91, 88, 88);
+  font-weight: 600;
+  text-decoration: none;
+  background-color:  #f9a37597;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 2px;
+  width: 60px;
+}
+
+.mail-us-link:hover {
+  background-color: rgb(251, 172, 172);
+  transform: scale(1.2);
+}
+
+.link {
+  color: rgb(91, 88, 88);
+  font-weight: 600;
+  text-decoration: none;
+  background-color:  #f9a37597;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 2px;
+  width: 60px;
+}
+
+.link:hover {
+  background-color: rgb(251, 172, 172);
+  transform: scale(1.2);
+}
+
 
 @media screen and (min-width: 701px) {
   .check-out {

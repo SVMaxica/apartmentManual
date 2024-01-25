@@ -35,6 +35,7 @@ export const About = () => {
             beach in walking distance and the area offers lots of activities for
             the whole family.
           </p>
+          <button className="button">Button not in use yet</button>
         </div>
         <div className="about-img">
           <img src={pool} alt="pool on the roof" />
@@ -47,9 +48,11 @@ export const About = () => {
         <div className="about-text">
           <h1>Experience fantastic food.</h1>
           <p>
-            Eat your dinner in the sunset on the balcony or visit one of
-            gotlands finest restaurants most of them are in 4km range.
+            Eat your dinner in the sunset on the balcony or go for a walk by the
+            sea to visby old town and visit one of gotlands finest restaurants
+            most of them are in 5km range.
           </p>
+          <button className="button">Button not in use yet</button>
         </div>
       </div>
     </>
