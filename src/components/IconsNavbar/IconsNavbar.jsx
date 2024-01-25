@@ -1,11 +1,12 @@
 import "./IconsNavbar.css";
-import checkInIcon from "../../assets/checkin-icon.svg";
+import checkInIcon from "../../assets/lock-open.svg";
 import checkOutIcon from "../../assets/checkout-icon.svg";
 import houseRulesIcon from "../../assets/houserules-icon.svg";
 import garbageIcon from "../../assets/recycle-bin-icon.svg";
-import starterIcon from "../../assets/asterisk-icon.svg";
-import poolIcon from "../../assets/pool-icon.svg";
+import starterIcon from "../../assets/gift.svg";
+import poolIcon from "../../assets/poolIcon.svg";
 import tennisIcon from "../../assets/tennis-icon.svg";
+import groceryIcon from "../../assets/grocery-trolley.svg";
 
 // eslint-disable-next-line react/prop-types
 export const IconsNavbar = ({ setActiveComponent }) => {
@@ -83,7 +84,7 @@ export const IconsNavbar = ({ setActiveComponent }) => {
           className="icon-container"
           onClick={() => setActiveComponent("GroceryStores")}
         >
-          <img src={tennisIcon} alt="Grocery stores" className="svg-icon" />
+          <img src={groceryIcon} alt="Grocery stores" className="svg-icon" />
           <p className="icon-text">
             <b>Grocery Stores</b>
           </p>

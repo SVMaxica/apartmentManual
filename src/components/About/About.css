@@ -69,13 +69,16 @@
   
   @media screen and (min-width: 701px) {
     .about-wrapper {
-    width: 600px;
+    width: 630px;
     gap: 20px;
     }
     .about-text p {
        margin-top: 10px;
        margin-bottom: 10px;
        font-size: large;
+    }
+    .about-text h1 {
+       font-size: xx-large;
     }
 
     .about-img {
