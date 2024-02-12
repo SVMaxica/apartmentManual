@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import "./CheckIn.css";
+import './CheckIn.css';
 
 export const CheckIn = () => {
   return (
@@ -7,7 +7,7 @@ export const CheckIn = () => {
       <div className="check-in">
         <h1>Check In</h1>
         <p className="check-in-text">
-          Check-in is from <b>16:00</b> at the earliest (Sometimes we allow
+          Check-in is from <b>15:00</b> at the earliest (Sometimes we allow
           earlier check-in, but this is only if the apartment has not been
           booked the day before, and only by agreement)<br></br>
           <br></br>
