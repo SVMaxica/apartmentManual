@@ -1,12 +1,13 @@
-import "./IconsNavbar.css";
-import checkInIcon from "../../assets/lock-open.svg";
-import checkOutIcon from "../../assets/checkout-icon.svg";
-import houseRulesIcon from "../../assets/houserules-icon.svg";
-import garbageIcon from "../../assets/recycle-bin-icon.svg";
-import starterIcon from "../../assets/gift.svg";
-import poolIcon from "../../assets/poolIcon.svg";
-import tennisIcon from "../../assets/tennis-icon.svg";
-import groceryIcon from "../../assets/grocery-trolley.svg";
+import './IconsNavbar.css';
+import checkInIcon from '../../assets/lock-open.svg';
+import checkOutIcon from '../../assets/checkout-icon.svg';
+import houseRulesIcon from '../../assets/houserules-icon.svg';
+import garbageIcon from '../../assets/recycle-bin-icon.svg';
+import starterIcon from '../../assets/gift.svg';
+import poolIcon from '../../assets/poolIcon.svg';
+import tennisIcon from '../../assets/tennis-icon.svg';
+import groceryIcon from '../../assets/grocery-trolley.svg';
+import tvIcon from '../../assets/television-icon.svg';
 
 // eslint-disable-next-line react/prop-types
 export const IconsNavbar = ({ setActiveComponent }) => {
@@ -16,7 +17,7 @@ export const IconsNavbar = ({ setActiveComponent }) => {
       <div className="icons-wrapper">
         <div
           className="icon-container"
-          onClick={() => setActiveComponent("CheckIn")}
+          onClick={() => setActiveComponent('CheckIn')}
         >
           <img src={checkInIcon} alt="Check In" className="svg-icon" />
           <p className="icon-text">
@@ -26,7 +27,7 @@ export const IconsNavbar = ({ setActiveComponent }) => {
 
         <div
           className="icon-container"
-          onClick={() => setActiveComponent("CheckOut")}
+          onClick={() => setActiveComponent('CheckOut')}
         >
           <img src={checkOutIcon} alt="Check Out" className="svg-icon" />
           <p className="icon-text">
@@ -36,7 +37,7 @@ export const IconsNavbar = ({ setActiveComponent }) => {
 
         <div
           className="icon-container"
-          onClick={() => setActiveComponent("Houserules")}
+          onClick={() => setActiveComponent('Houserules')}
         >
           <img src={houseRulesIcon} alt="House Rules" className="svg-icon" />
           <p className="icon-text">
@@ -46,7 +47,7 @@ export const IconsNavbar = ({ setActiveComponent }) => {
 
         <div
           className="icon-container"
-          onClick={() => setActiveComponent("Garbage")}
+          onClick={() => setActiveComponent('Garbage')}
         >
           <img src={garbageIcon} alt="Garbage" className="svg-icon" />
           <p className="icon-text">
@@ -55,7 +56,7 @@ export const IconsNavbar = ({ setActiveComponent }) => {
         </div>
         <div
           className="icon-container"
-          onClick={() => setActiveComponent("StarterPack")}
+          onClick={() => setActiveComponent('StarterPack')}
         >
           <img src={starterIcon} alt="Starter pack" className="svg-icon" />
           <p className="icon-text">
@@ -64,7 +65,7 @@ export const IconsNavbar = ({ setActiveComponent }) => {
         </div>
         <div
           className="icon-container"
-          onClick={() => setActiveComponent("Pool")}
+          onClick={() => setActiveComponent('Pool')}
         >
           <img src={poolIcon} alt="pool" className="svg-icon" />
           <p className="icon-text">
@@ -73,7 +74,7 @@ export const IconsNavbar = ({ setActiveComponent }) => {
         </div>
         <div
           className="icon-container"
-          onClick={() => setActiveComponent("Tennis")}
+          onClick={() => setActiveComponent('Tennis')}
         >
           <img src={tennisIcon} alt="Tennis" className="svg-icon" />
           <p className="icon-text">
@@ -82,11 +83,20 @@ export const IconsNavbar = ({ setActiveComponent }) => {
         </div>
         <div
           className="icon-container"
-          onClick={() => setActiveComponent("GroceryStores")}
+          onClick={() => setActiveComponent('GroceryStores')}
         >
           <img src={groceryIcon} alt="Grocery stores" className="svg-icon" />
           <p className="icon-text">
             <b>Grocery Stores</b>
+          </p>
+        </div>
+        <div
+          className="icon-container"
+          onClick={() => setActiveComponent('TV')}
+        >
+          <img src={tvIcon} alt="TV instructions" className="svg-icon" />
+          <p className="icon-text">
+            <b>TV</b>
           </p>
         </div>
         {/* Similarly for other icons */}
