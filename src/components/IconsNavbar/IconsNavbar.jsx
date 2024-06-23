@@ -8,6 +8,11 @@ import poolIcon from '../../assets/poolIcon.svg';
 import tennisIcon from '../../assets/tennis-icon.svg';
 import groceryIcon from '../../assets/grocery-trolley.svg';
 import tvIcon from '../../assets/television-icon.svg';
+import chargeIcon from '../../assets/charge.svg';
+import washerIcon from '../../assets/washing-machine-icon.svg';
+import dishwasherIcon from '../../assets/dishwasher.svg';
+import balconyIcon from '../../assets/bacolony.svg';
+import wifiIcon from '../../assets/wifi.svg';
 
 // eslint-disable-next-line react/prop-types
 export const IconsNavbar = ({ setActiveComponent }) => {
@@ -97,6 +102,67 @@ export const IconsNavbar = ({ setActiveComponent }) => {
           <img src={tvIcon} alt="TV instructions" className="svg-icon" />
           <p className="icon-text">
             <b>TV</b>
+          </p>
+        </div>
+        <div
+          className="icon-container"
+          onClick={() => setActiveComponent('Charge')}
+        >
+          <img
+            src={chargeIcon}
+            alt="Car charging instructions"
+            className="svg-icon"
+          />
+          <p className="icon-text">
+            <b>Charge</b>
+          </p>
+        </div>
+        <div
+          className="icon-container"
+          onClick={() => setActiveComponent('Balcony')}
+        >
+          <img
+            src={balconyIcon}
+            alt="Balcony instructions"
+            className="svg-icon"
+          />
+          <p className="icon-text">
+            <b>Balcony</b>
+          </p>
+        </div>
+        <div
+          className="icon-container"
+          onClick={() => setActiveComponent('Dishwasher')}
+        >
+          <img
+            src={dishwasherIcon}
+            alt="Dishwasher instructions"
+            className="svg-icon"
+          />
+          <p className="icon-text">
+            <b>Dishwash</b>
+          </p>
+        </div>
+        <div
+          className="icon-container"
+          onClick={() => setActiveComponent('Laundry')}
+        >
+          <img
+            src={washerIcon}
+            alt="Laundry instructions"
+            className="svg-icon"
+          />
+          <p className="icon-text">
+            <b>Laundry</b>
+          </p>
+        </div>
+        <div
+          className="icon-container"
+          onClick={() => setActiveComponent('Wifi')}
+        >
+          <img src={wifiIcon} alt="Wifi instructions" className="svg-icon" />
+          <p className="icon-text">
+            <b>Wifi</b>
           </p>
         </div>
         {/* Similarly for other icons */}

@@ -14,6 +14,11 @@ import { StarterPack } from './components/StarterPack/StarterPack';
 import { About } from './components/About/About';
 import { GroceryStore } from './components/GroceryStore/GroceryStore';
 import { Tv } from './components/Tv/Tv';
+import { Charge } from './components/Charge/Charge';
+import { Balcony } from './components/Balcony/Balcony';
+import { Dishwasher } from './components/Dishwasher/Dishwasher';
+import { Laundry } from './components/Laundry/Laundry';
+import { Wifi } from './components/Wifi/Wifi';
 
 export const App = () => {
   const [activeComponent, setActiveComponent] = useState('');
@@ -35,6 +40,11 @@ export const App = () => {
       {activeComponent === 'StarterPack' && <StarterPack />}
       {activeComponent === 'GroceryStores' && <GroceryStore />}
       {activeComponent === 'TV' && <Tv />}
+      {activeComponent === 'Charge' && <Charge />}
+      {activeComponent === 'Balcony' && <Balcony />}
+      {activeComponent === 'Dishwasher' && <Dishwasher />}
+      {activeComponent === 'Laundry' && <Laundry />}
+      {activeComponent === 'Wifi' && <Wifi />}
       <Footer />
     </div>
   );

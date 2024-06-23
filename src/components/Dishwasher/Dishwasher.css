@@ -1,0 +1,38 @@
+.dishwasher-wrapper {
+    background-color: rgb(140, 187, 212);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.dishwasher-info {
+  width: 90%;
+  box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+ text-align: center;
+ background: white;
+    /* padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px; */
+  padding: 30px;
+  border-radius: 8px; 
+  box-sizing: border-box;
+}
+
+.dishwasher-info p {
+  padding: 10px;
+}
+
+.dishwasher-img {
+  width: 95%; 
+  height: auto; 
+  border-radius: 8px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 701px) {
+  .tv-info {
+    width: 630px;
+  }
+} 
