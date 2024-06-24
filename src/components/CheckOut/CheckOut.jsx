@@ -1,12 +1,12 @@
 /* eslint-disable react/prop-types */
-import "./CheckOut.css";
+import './CheckOut.css';
 
 export const CheckOut = ({ setActiveComponent }) => {
   return (
     <div className="check-out-wrapper">
       <div
         className="check-out"
-        style={{ fontFamily: "Quicksand, sans-serif" }}
+        style={{ fontFamily: 'Quicksand, sans-serif' }}
       >
         <h1>CheckOut</h1>
         <ul>
@@ -16,7 +16,7 @@ export const CheckOut = ({ setActiveComponent }) => {
           </li>
 
           <li>
-            {" "}
+            {' '}
             If anything has been broken during your stay, we would appreciate it
             if you could<br></br>
             <a href="mailto:visbysnack@gmail.com" className="mail-us-link">
@@ -33,23 +33,26 @@ export const CheckOut = ({ setActiveComponent }) => {
             to the garbage room<br></br>
             <span
               className="link"
-              onClick={() => setActiveComponent("Garbage")}
+              onClick={() => setActiveComponent('Garbage')}
               style={{
-                cursor: "pointer",
-                textDecoration: "none",
+                cursor: 'pointer',
+                textDecoration: 'none',
                 // color: "black",
               }}
             >
-              {" "}
+              {' '}
               Here
             </span>
           </li>
 
-          <li>Place all used towels in a pile on the bathroom floor.</li>
+          <li>
+            Place all used towels in a pile on the bathroom floor or in the
+            laundry basket.
+          </li>
 
           <li>
-            Wash all the dishes after you and put them back in the cabinets
-            where you found them.
+            Wash and dry all the dishes after you and put them back in the
+            cabinets where they belong.
           </li>
 
           <li>
@@ -57,8 +60,8 @@ export const CheckOut = ({ setActiveComponent }) => {
           </li>
 
           <li>
-            Place the outdoor cushions in the chairs under the roof and close
-            the balcony door.
+            Place the outdoor cushions in the chairs under the roof and strap
+            the folded umbrellas, close the balcony door.
           </li>
 
           <li>
@@ -67,7 +70,7 @@ export const CheckOut = ({ setActiveComponent }) => {
           </li>
 
           <li>
-            Feel free to leave feedback{" "}
+            Feel free to leave feedback{' '}
             <a href="mailto:visbysnack@gmail.com" className="mail-us-link">
               Here
             </a>

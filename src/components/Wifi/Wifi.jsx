@@ -4,7 +4,7 @@ export const Wifi = () => {
   return (
     <div className="wifi-wrapper">
       <div className="wifi-info">
-        <h1>Wifi</h1>
+        <h1>Wifi network</h1>
         <div className="wifi-instructions">
           <p>To connect to the wifi:</p>
           <ol>

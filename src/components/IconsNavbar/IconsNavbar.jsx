@@ -18,8 +18,18 @@ import wifiIcon from '../../assets/wifi.svg';
 export const IconsNavbar = ({ setActiveComponent }) => {
   return (
     <nav className="icon-navbar">
-      <h2>Instructions</h2>
+      <h2>Apartment Manual</h2>
       <div className="icons-wrapper">
+        <div
+          className="icon-container"
+          onClick={() => setActiveComponent('Houserules')}
+        >
+          <img src={houseRulesIcon} alt="House Rules" className="svg-icon" />
+          <p className="icon-text">
+            <b>House Rules</b>
+          </p>
+        </div>
+
         <div
           className="icon-container"
           onClick={() => setActiveComponent('CheckIn')}
@@ -39,17 +49,56 @@ export const IconsNavbar = ({ setActiveComponent }) => {
             <b>Check Out</b>
           </p>
         </div>
-
         <div
           className="icon-container"
-          onClick={() => setActiveComponent('Houserules')}
+          onClick={() => setActiveComponent('StarterPack')}
         >
-          <img src={houseRulesIcon} alt="House Rules" className="svg-icon" />
+          <img src={starterIcon} alt="Starter pack" className="svg-icon" />
           <p className="icon-text">
-            <b>House Rules</b>
+            <b>Starter Pack</b>
           </p>
         </div>
 
+        <div
+          className="icon-container"
+          onClick={() => setActiveComponent('Balcony')}
+        >
+          <img
+            src={balconyIcon}
+            alt="Balcony instructions"
+            className="svg-icon"
+          />
+          <p className="icon-text">
+            <b>Balcony</b>
+          </p>
+        </div>
+        <div
+          className="icon-container"
+          onClick={() => setActiveComponent('Charge')}
+        >
+          <img
+            src={chargeIcon}
+            alt="Car charging instructions"
+            className="svg-icon"
+          />
+          <p className="icon-text">
+            <b>Charge</b>
+          </p>
+        </div>
+
+        <div
+          className="icon-container"
+          onClick={() => setActiveComponent('Dishwasher')}
+        >
+          <img
+            src={dishwasherIcon}
+            alt="Dishwasher instructions"
+            className="svg-icon"
+          />
+          <p className="icon-text">
+            <b>Dishwash</b>
+          </p>
+        </div>
         <div
           className="icon-container"
           onClick={() => setActiveComponent('Garbage')}
@@ -61,13 +110,28 @@ export const IconsNavbar = ({ setActiveComponent }) => {
         </div>
         <div
           className="icon-container"
-          onClick={() => setActiveComponent('StarterPack')}
+          onClick={() => setActiveComponent('GroceryStores')}
         >
-          <img src={starterIcon} alt="Starter pack" className="svg-icon" />
+          <img src={groceryIcon} alt="Grocery stores" className="svg-icon" />
           <p className="icon-text">
-            <b>Starter Pack</b>
+            <b>Grocery Stores</b>
           </p>
         </div>
+
+        <div
+          className="icon-container"
+          onClick={() => setActiveComponent('Laundry')}
+        >
+          <img
+            src={washerIcon}
+            alt="Laundry instructions"
+            className="svg-icon"
+          />
+          <p className="icon-text">
+            <b>Laundry</b>
+          </p>
+        </div>
+
         <div
           className="icon-container"
           onClick={() => setActiveComponent('Pool')}
@@ -86,15 +150,7 @@ export const IconsNavbar = ({ setActiveComponent }) => {
             <b>Tennis</b>
           </p>
         </div>
-        <div
-          className="icon-container"
-          onClick={() => setActiveComponent('GroceryStores')}
-        >
-          <img src={groceryIcon} alt="Grocery stores" className="svg-icon" />
-          <p className="icon-text">
-            <b>Grocery Stores</b>
-          </p>
-        </div>
+
         <div
           className="icon-container"
           onClick={() => setActiveComponent('TV')}
@@ -104,58 +160,7 @@ export const IconsNavbar = ({ setActiveComponent }) => {
             <b>TV</b>
           </p>
         </div>
-        <div
-          className="icon-container"
-          onClick={() => setActiveComponent('Charge')}
-        >
-          <img
-            src={chargeIcon}
-            alt="Car charging instructions"
-            className="svg-icon"
-          />
-          <p className="icon-text">
-            <b>Charge</b>
-          </p>
-        </div>
-        <div
-          className="icon-container"
-          onClick={() => setActiveComponent('Balcony')}
-        >
-          <img
-            src={balconyIcon}
-            alt="Balcony instructions"
-            className="svg-icon"
-          />
-          <p className="icon-text">
-            <b>Balcony</b>
-          </p>
-        </div>
-        <div
-          className="icon-container"
-          onClick={() => setActiveComponent('Dishwasher')}
-        >
-          <img
-            src={dishwasherIcon}
-            alt="Dishwasher instructions"
-            className="svg-icon"
-          />
-          <p className="icon-text">
-            <b>Dishwash</b>
-          </p>
-        </div>
-        <div
-          className="icon-container"
-          onClick={() => setActiveComponent('Laundry')}
-        >
-          <img
-            src={washerIcon}
-            alt="Laundry instructions"
-            className="svg-icon"
-          />
-          <p className="icon-text">
-            <b>Laundry</b>
-          </p>
-        </div>
+
         <div
           className="icon-container"
           onClick={() => setActiveComponent('Wifi')}

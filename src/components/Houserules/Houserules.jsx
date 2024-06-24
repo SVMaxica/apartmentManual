@@ -1,11 +1,11 @@
-import "./Houserules.css";
+import './Houserules.css';
 
 export const Houserules = () => {
   return (
     <div className="house-rules-wrapper">
       <div
         className="house-rules"
-        style={{ fontFamily: "Quicksand, sans-serif" }}
+        style={{ fontFamily: 'Quicksand, sans-serif' }}
       >
         <h1>House rules!</h1>
         <ul>
@@ -22,8 +22,13 @@ export const Houserules = () => {
             <b>No Parties</b> Allowed!
           </li>
           <li>
-            Only as many people as the booking specifies are allowed to stay in
-            the apartment.
+            Only toiletpaper, urine and feces are allowed to flush down in the
+            toilet.<br></br>Also use as little toiletpaper as you can and flush
+            the toilet once or twice extra every time you use it.
+          </li>
+          <li>
+            Only the guests registered on the booking are allowed to stay in the
+            apartment.
           </li>
           <li>
             Between 21:00 in the evening and 08:00, there should be silence in

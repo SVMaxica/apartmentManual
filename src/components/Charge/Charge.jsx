@@ -19,7 +19,7 @@ export const Charge = () => {
             target="_blank"
             rel="noreferrer"
           >
-            Chargefinder.com
+            Chargefinder
           </a>
         </div>
       </div>

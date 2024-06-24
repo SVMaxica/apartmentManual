@@ -14,12 +14,12 @@ export const Balcony = () => {
           </ul>
           <img
             className="remotes-img"
-            src="images/balconydoor.jpg"
+            src="images/handles.jpg"
             alt="image of tv remotes"
           />
           <img
             className="remotes-img"
-            src="images/handles.jpg"
+            src="images/balconydoor.jpg"
             alt="image of tv remotes"
           />
           <p>Other things to know</p>
