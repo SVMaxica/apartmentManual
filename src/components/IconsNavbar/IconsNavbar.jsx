@@ -13,6 +13,8 @@ import washerIcon from '../../assets/washing-machine-icon.svg';
 import dishwasherIcon from '../../assets/dishwasher.svg';
 import balconyIcon from '../../assets/bacolony.svg';
 import wifiIcon from '../../assets/wifi.svg';
+import bbqIcon from '../../assets/bbqIcon.svg';
+import transportIcon from '../../assets/transportIcon.svg';
 
 // eslint-disable-next-line react/prop-types
 export const IconsNavbar = ({ setActiveComponent }) => {
@@ -70,6 +72,15 @@ export const IconsNavbar = ({ setActiveComponent }) => {
           />
           <p className="icon-text">
             <b>Balcony</b>
+          </p>
+        </div>
+        <div
+          className="icon-container"
+          onClick={() => setActiveComponent('Barbeque')}
+        >
+          <img src={bbqIcon} alt="Barbecue instructions" className="svg-icon" />
+          <p className="icon-text">
+            <b>Barbeque</b>
           </p>
         </div>
         <div
@@ -150,7 +161,19 @@ export const IconsNavbar = ({ setActiveComponent }) => {
             <b>Tennis</b>
           </p>
         </div>
-
+        <div
+          className="icon-container"
+          onClick={() => setActiveComponent('Transportation')}
+        >
+          <img
+            src={transportIcon}
+            alt="Transportation instructions"
+            className="svg-icon"
+          />
+          <p className="icon-text">
+            <b>Transport</b>
+          </p>
+        </div>
         <div
           className="icon-container"
           onClick={() => setActiveComponent('TV')}

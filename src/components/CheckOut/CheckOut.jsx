@@ -16,7 +16,6 @@ export const CheckOut = ({ setActiveComponent }) => {
           </li>
 
           <li>
-            {' '}
             If anything has been broken during your stay, we would appreciate it
             if you could<br></br>
             <a href="mailto:visbysnack@gmail.com" className="mail-us-link">
@@ -40,7 +39,6 @@ export const CheckOut = ({ setActiveComponent }) => {
                 // color: "black",
               }}
             >
-              {' '}
               Here
             </span>
           </li>
@@ -64,11 +62,12 @@ export const CheckOut = ({ setActiveComponent }) => {
             the folded umbrellas, close the balcony door.
           </li>
 
+          <li>Double-check to ensure you haven’t forgotten anything</li>
           <li>
-            Double-check to ensure you haven’t forgotten anything and DO N0T
-            FORGET to return the key to the keybox when you leave.
+            {' '}
+            DO N0T FORGET to return the key to the keybox and the extra key
+            should be placed on the keyhook next to the door when you leave.
           </li>
-
           <li>
             Feel free to leave feedback{' '}
             <a href="mailto:visbysnack@gmail.com" className="mail-us-link">

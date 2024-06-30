@@ -43,6 +43,10 @@ export const CheckIn = () => {
           src="images/taglocks.jpg"
           alt="Image on How to use tags"
         />
+        <p>
+          There is also an extra set of keys in the apartment next to the door
+          that you can use.
+        </p>
       </div>
     </div>
   );

@@ -23,8 +23,21 @@ export const Laundry = () => {
               The tag only work during your timeslot.
             </li>
           </ol>
-          <p> IMPORTANT DO NOT FORGET YOUR BOOKED TIMESLOT!</p>
-          <p>You can also cancel your timeslot by following the same steps.</p>
+          <p> IMPORTANT </p>
+          <ul>
+            <li>
+              You might see that there already is one booked timeslot for this
+              apartment,<br></br> but that one is reserved for the cleaners so
+              you can NOT use that one,<br></br> also be careful so you do NOT
+              cancel that timespot by misstake.
+            </li>
+            <li>Do not forget your booked timeslot</li>
+            <li>
+              If you need to cancel your timeslot you , follow the same steps as
+              above.
+            </li>
+          </ul>
+
           <img
             className="remotes-img"
             src="images/screen.jpg"

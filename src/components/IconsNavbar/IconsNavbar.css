@@ -19,18 +19,18 @@
   padding-bottom: 25px;
 }
 .icons-wrapper {
-  /* display: flex;
-  flex-direction: row; */
+  
   display: flex;
     flex-wrap: wrap; /* Allows items to wrap onto new lines */
-    justify-content: space-around; /* Distributes space evenly around items */
-    align-items: flex-start; /* Aligns items to the start of the container */
+    justify-content: space-around; 
+    align-items: flex-start;  
   gap: 20px;
   height: auto;
 
 }
 .icon-container .svg-icon {
   width: 25px;
+
 }
 .icon-container {
   background-color: antiquewhite;
@@ -43,9 +43,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between; 
-  /* border: 4px solid grey; */
   border-radius: 20px 0 20px 20px;
-  padding: px;
   cursor: pointer;
 }
 
@@ -69,6 +67,7 @@
   box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
   transform: scale(1.2);
 }
+
 /* 
 @media screen and (min-width: 801px) {
   .icons-wrapper {

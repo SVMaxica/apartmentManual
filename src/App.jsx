@@ -19,6 +19,8 @@ import { Balcony } from './components/Balcony/Balcony';
 import { Dishwasher } from './components/Dishwasher/Dishwasher';
 import { Laundry } from './components/Laundry/Laundry';
 import { Wifi } from './components/Wifi/Wifi';
+import { Transportation } from './components/Transportation/Transportation';
+import { Barbeque } from './components/Barbeque/Barbeque';
 
 export const App = () => {
   const [activeComponent, setActiveComponent] = useState('');
@@ -45,6 +47,8 @@ export const App = () => {
       {activeComponent === 'Dishwasher' && <Dishwasher />}
       {activeComponent === 'Laundry' && <Laundry />}
       {activeComponent === 'Wifi' && <Wifi />}
+      {activeComponent === 'Transportation' && <Transportation />}
+      {activeComponent === 'Barbeque' && <Barbeque />}
       <Footer />
     </div>
   );
