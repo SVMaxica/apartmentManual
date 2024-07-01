@@ -34,9 +34,11 @@ export const Transportation = () => {
               </a>
             </li>
             <li>
-              We have the bustop for bus nr 4 just outside the building and the
-              busstop for bus nr 61 is up on the Lummelundavägen wich is also
-              close by. <br></br>You can find the timetables at<br></br>
+              Take the bus,<br></br>
+              Next to the house at the intersection, you will find the bus stop
+              where bus number 4 stops and the busstop for bus nr 61 is up on
+              the Lummelundavägen wich is also close by. <br></br>You can find
+              the timetables at<br></br>
               <a
                 href="https://gotland.se/trafik-gator-och-parker/kollektivtrafik/busstidtabeller-och-linjekartor"
                 className="button"
