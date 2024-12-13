@@ -65,8 +65,8 @@ export const CheckOut = ({ setActiveComponent }) => {
           <li>Double-check to ensure you haven’t forgotten anything</li>
           <li>
             {' '}
-            DO N0T FORGET to return the key to the keybox and the extra key
-            should be placed on the keyhook next to the door when you leave.
+            DO N0T FORGET to return the key tag to the keybox and the extra key
+            tag should be placed on the keyhook next to the door when you leave.
           </li>
           <li>
             Feel free to leave feedback{' '}
