@@ -1,9 +1,19 @@
-import "./About.css";
-import pool from "/images/splash.png";
-import sunset from "/images/sunset3.jpeg";
-import table from "/images/table.jpg";
+import './About.css';
+import { useState } from 'react';
+import pool from '/images/splash.png';
+import sunset from '/images/sunset3.jpeg';
+import table from '/images/table.jpg';
+import ActivitiesList from '../ActivitiesList/ActivitiesList';
 
 export const About = () => {
+  // State to manage the visibility of ActivitiesList
+  const [showActivities, setShowActivities] = useState(false);
+
+  // Function to toggle the activity list visibility
+  const toggleActivities = () => {
+    setShowActivities(!showActivities);
+  };
+
   return (
     <>
       <div className="about-wrapper">
@@ -35,12 +45,15 @@ export const About = () => {
             beach in walking distance and the area offers lots of activities for
             the whole family.
           </p>
-          <button className="button">Button not in use yet</button>
+          <button className="button" onClick={toggleActivities}>
+            {showActivities ? 'Hide Activities' : 'See Other Activities'}
+          </button>
         </div>
         <div className="about-img">
           <img src={pool} alt="pool on the roof" />
         </div>
       </div>
+      {showActivities && <ActivitiesList />}
       <div className="about-wrapper">
         <div className="about-img">
           <img src={table} alt="sunset from balcony" />
