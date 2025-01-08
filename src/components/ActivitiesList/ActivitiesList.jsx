@@ -132,7 +132,7 @@ const landmarks = [
 
 const ActivitiesList = () => {
   return (
-    <div>
+    <div className="activitiesList-wrapper">
       <h1>Amazing Beaches</h1>
       <ul>
         {beaches.map((beach, index) => (

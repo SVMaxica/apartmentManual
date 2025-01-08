@@ -1,0 +1,20 @@
+.activitiesList-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.activitiesList-wrapper h1 {
+  text-align: center;
+}
+
+.activitiesList-wrapper h2 {
+  margin-bottom: 5px;
+}
+
+.activitiesList-wrapper p {
+  text-align: left;
+  width: 50%;
+  margin-top: 3px;
+}

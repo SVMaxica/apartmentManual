@@ -4,14 +4,22 @@ import pool from '/images/splash.png';
 import sunset from '/images/sunset3.jpeg';
 import table from '/images/table.jpg';
 import ActivitiesList from '../ActivitiesList/ActivitiesList';
+import RestaurantsShopsList from '../RestaurantsShopsList/RestaurantsShopsList';
 
 export const About = () => {
   // State to manage the visibility of ActivitiesList
   const [showActivities, setShowActivities] = useState(false);
+  const [showRestaurantsShops, setShowRestaurantsShops] = useState(false);
 
   // Function to toggle the activity list visibility
   const toggleActivities = () => {
     setShowActivities(!showActivities);
+    setShowRestaurantsShops(false); // Stäng andra sektionen
+  };
+
+  const toggleRestaurantsShops = () => {
+    setShowRestaurantsShops(!showRestaurantsShops);
+    setShowActivities(false); // Stäng andra sektionen
   };
 
   return (
@@ -65,9 +73,14 @@ export const About = () => {
             sea to visby old town and visit one of gotlands finest restaurants
             most of them are in 5km range.
           </p>
-          <button className="button">Button not in use yet</button>
+          <button className="button" onClick={toggleRestaurantsShops}>
+            {showRestaurantsShops
+              ? 'Hide Restaurants and Shops'
+              : 'Show Restaurants & Shops'}
+          </button>
         </div>
       </div>
+      {showRestaurantsShops && <RestaurantsShopsList />}
     </>
   );
 };
