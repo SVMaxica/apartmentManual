@@ -78,7 +78,7 @@ const shops = [
     ],
   },
   {
-    category: 'Locally made',
+    category: 'Locally Produced Treasures',
     items: [
       {
         name: 'Kränku',
@@ -106,7 +106,7 @@ const shops = [
 const RestaurantsShopsList = () => {
   return (
     <div className="restaurantsShopsList-wrapper">
-      <h1>Tips for Restaurants</h1>
+      <h1>Explore Our Favorite Places to Eat</h1>
       {restaurants.map((category, index) => (
         <div key={index}>
           <h2>{category.category}</h2>
@@ -128,7 +128,7 @@ const RestaurantsShopsList = () => {
         </div>
       ))}
 
-      <h1>Tips for Shops</h1>
+      <h1>And our Favorite Shops</h1>
       {shops.map((category, index) => (
         <div key={index}>
           <h2>{category.category}</h2>

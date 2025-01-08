@@ -54,7 +54,7 @@ export const About = () => {
             the whole family.
           </p>
           <button className="button" onClick={toggleActivities}>
-            {showActivities ? 'Hide Activities' : 'See Other Activities'}
+            {showActivities ? 'Hide Activities' : 'Explore Other Activities'}
           </button>
         </div>
         <div className="about-img">
@@ -76,7 +76,7 @@ export const About = () => {
           <button className="button" onClick={toggleRestaurantsShops}>
             {showRestaurantsShops
               ? 'Hide Restaurants and Shops'
-              : 'Show Restaurants & Shops'}
+              : 'Explore Restaurants & Shops'}
           </button>
         </div>
       </div>

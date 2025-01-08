@@ -5,27 +5,31 @@ const beaches = [
   {
     name: 'Snäckviken',
     description:
-      'Our nearest beach just a few hundred meters away, always well-maintained, family-friendly, and with a nice restaurant.',
+      'Our nearest beach just a few hundred meters away, always well-maintained, family-friendly, shallow water and with a nice restaurant.',
     location: 'https://maps.app.goo.gl/nuGR5NKvCMtUs4E58',
   },
   {
     name: 'Ihreviken',
-    description: 'Beautiful beach with nice walking paths.',
+    description:
+      'A tranquil beach surrounded by scenic walking trails and stunning views, ideal for a peaceful day by the sea.',
     location: 'https://maps.app.goo.gl/S3QQeqcSm23ffnA8A',
   },
   {
     name: 'Fårö',
-    description: 'Beautiful shallow beach with a lovely vibe.',
+    description:
+      'Offers Long, sandy beaches with crystal-clear waters and a serene atmosphere. Perfect for relaxation and enjoying Gotlands natural beauty.',
     location: 'https://maps.app.goo.gl/KCMBjbvrxcsjxbkH8',
   },
   {
     name: 'Tofta Beach',
-    description: 'Beautiful beach with several nice restaurants.',
+    description:
+      'One of Gotlands most popular beaches, known for its lively atmosphere, fine sand, and several great restaurants.',
     location: 'https://maps.app.goo.gl/WKozPcmBCSMWrhmv6',
   },
   {
     name: 'Blue Lagoon',
-    description: 'Limestone quarry with lovely turquoise water.',
+    description:
+      'A unique turquoise water-filled limestone quarry, perfect for swimming and picnicking in a one-of-a-kind setting.',
     location: 'https://maps.app.goo.gl/gcsrsNnfL583vjYe6',
   },
 ];
@@ -92,7 +96,7 @@ const familyActivities = [
   {
     name: 'Gotlands djurpark',
     description:
-      'the farm offers activities like meeting farm animals and some more exotic animals, several playareas and a cafe. A delightful outing for the whole family.',
+      'A cozy zoo near Boge with a mix of farm and exotic animals. Enjoy interactive experiences, play areas for kids, and a café. Perfect for a fun and relaxing family outing',
     location: 'https://maps.app.goo.gl/WksbNjMATMTbHU898',
   },
 ];
@@ -133,11 +137,12 @@ const landmarks = [
 const ActivitiesList = () => {
   return (
     <div className="activitiesList-wrapper">
-      <h1>Amazing Beaches</h1>
+      <h1>Our Top Activities Suggestions</h1>
+      <h2>Amazing Beaches</h2>
       <ul>
         {beaches.map((beach, index) => (
           <li key={index}>
-            <h2>{beach.name}</h2>
+            <h3>{beach.name}</h3>
             <p>{beach.description}</p>
             <a href={beach.location} target="_blank" rel="noopener noreferrer">
               View on map
@@ -145,11 +150,11 @@ const ActivitiesList = () => {
           </li>
         ))}
       </ul>
-      <h1>Go for a Hike</h1>
+      <h2>Go for a Hike</h2>
       <ul>
         {hikes.map((hike, index) => (
           <li key={index}>
-            <h2>{hike.name}</h2>
+            <h3>{hike.name}</h3>
             <p>{hike.description}</p>
             <a href={hike.location} target="_blank" rel="noopener noreferrer">
               View on map
@@ -157,11 +162,11 @@ const ActivitiesList = () => {
           </li>
         ))}
       </ul>
-      <h1>Familie activities</h1>
+      <h2>Family favorites</h2>
       <ul>
         {familyActivities.map((activity, index) => (
           <li key={index}>
-            <h2>{activity.name}</h2>
+            <h3>{activity.name}</h3>
             <p>{activity.description}</p>
             <a
               href={activity.location}
@@ -174,11 +179,11 @@ const ActivitiesList = () => {
         ))}
       </ul>
 
-      <h1>History and landmarks</h1>
+      <h2>History and landmarks</h2>
       <ul>
         {landmarks.map((landmark, index) => (
           <li key={index}>
-            <h2>{landmark.name}</h2>
+            <h3>{landmark.name}</h3>
             <p>{landmark.description}</p>
             <a
               href={landmark.location}
