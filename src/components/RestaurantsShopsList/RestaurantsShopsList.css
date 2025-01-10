@@ -1,5 +1,5 @@
 .restaurantsShopsList-wrapper {
-  width: 92%;
+  width: 360px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -25,4 +25,11 @@
   width: 100%;
   margin-top: 2px;
   margin-bottom: 5px;
+}
+
+@media screen and (min-width: 701px) {
+
+  .restaurantsShopsList-wrapper {
+    width: 630px;
+  }
 }

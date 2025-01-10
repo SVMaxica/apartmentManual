@@ -1,5 +1,6 @@
 import React from 'react';
 import './RestaurantsShopsList.css';
+import pinIcon from '../../assets/pin.svg';
 
 const restaurants = [
   {
@@ -119,8 +120,14 @@ const RestaurantsShopsList = () => {
                   href={item.location}
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label={`View ${category.name} on the map`}
                 >
                   View on map
+                  <img
+                    src={pinIcon}
+                    alt="Link to map"
+                    style={{ width: '16px', height: '16px' }}
+                  />
                 </a>
               </li>
             ))}
@@ -128,7 +135,7 @@ const RestaurantsShopsList = () => {
         </div>
       ))}
 
-      <h1>And our Favorite Shops</h1>
+      <h1>And our Favorite Shops and cafés</h1>
       {shops.map((category, index) => (
         <div key={index}>
           <h2>{category.category}</h2>
@@ -141,8 +148,14 @@ const RestaurantsShopsList = () => {
                   href={item.location}
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label={`View ${item.name} on the map`}
                 >
                   View on map
+                  <img
+                    src={pinIcon}
+                    alt="Link to map"
+                    style={{ width: '16px', height: '16px' }}
+                  />
                 </a>
               </li>
             ))}

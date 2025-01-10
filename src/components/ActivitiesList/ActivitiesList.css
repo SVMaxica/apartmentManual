@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   padding-right: 20px;
+  width: 360px;
 }
 
 .activitiesList-wrapper h1 {
@@ -27,4 +28,11 @@
   width: 100%;
   margin-top: 3px;
   margin-bottom: 5px;
+}
+
+@media screen and (min-width: 701px) {
+
+  .activitiesList-wrapper {
+    width: 630px;
+  }
 }

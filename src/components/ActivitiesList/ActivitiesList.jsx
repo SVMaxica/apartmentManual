@@ -1,5 +1,6 @@
 import React from 'react';
 import './ActivitiesList.css';
+import pinIcon from '../../assets/pin.svg';
 
 const beaches = [
   {
@@ -144,8 +145,18 @@ const ActivitiesList = () => {
           <li key={index}>
             <h3>{beach.name}</h3>
             <p>{beach.description}</p>
-            <a href={beach.location} target="_blank" rel="noopener noreferrer">
+            <a
+              href={beach.location}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`View ${beach.name} on the map`}
+            >
               View on map
+              <img
+                src={pinIcon}
+                alt=""
+                style={{ width: '16px', height: '16px' }}
+              />
             </a>
           </li>
         ))}
@@ -156,8 +167,18 @@ const ActivitiesList = () => {
           <li key={index}>
             <h3>{hike.name}</h3>
             <p>{hike.description}</p>
-            <a href={hike.location} target="_blank" rel="noopener noreferrer">
+            <a
+              href={hike.location}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`View ${hike.name} on the map`}
+            >
               View on map
+              <img
+                src={pinIcon}
+                alt=""
+                style={{ width: '16px', height: '16px' }}
+              />
             </a>
           </li>
         ))}
@@ -172,8 +193,14 @@ const ActivitiesList = () => {
               href={activity.location}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label={`View ${activity.name} on the map`}
             >
               View on map
+              <img
+                src={pinIcon}
+                alt=""
+                style={{ width: '16px', height: '16px' }}
+              />
             </a>
           </li>
         ))}
@@ -189,8 +216,14 @@ const ActivitiesList = () => {
               href={landmark.location}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label={`View ${landmark.name} on the map`}
             >
               View on map
+              <img
+                src={pinIcon}
+                alt=""
+                style={{ width: '16px', height: '16px' }}
+              />
             </a>
           </li>
         ))}

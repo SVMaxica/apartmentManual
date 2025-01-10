@@ -35,8 +35,9 @@ export const Houserules = () => {
             the house.
           </li>
           <li>
-            If something is lost or broken, it will be charged if it exceeds the
-            deposit fee, so we appreciate if you are careful
+            If something gets lost or broken, a replacement cost may apply. We
+            kindly ask you to handle everything with care, and we truly
+            appreciate your understanding.
           </li>
         </ul>
       </div>

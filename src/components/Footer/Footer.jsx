@@ -1,9 +1,9 @@
 /* eslint-disable react/prop-types */
-import "./Footer.css";
+import './Footer.css';
 
 export const Footer = () => {
   return (
-    <footer className="footer" style={{ fontFamily: "Quicksand, sans-serif" }}>
+    <footer className="footer" style={{ fontFamily: 'Quicksand, sans-serif' }}>
       <div className="copywright">
         <p>© 2024 Sandra Gustafsson All Rights Reserved.</p>
       </div>
