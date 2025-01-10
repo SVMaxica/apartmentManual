@@ -84,6 +84,11 @@ export const CheckIn = () => {
           the mailboxes, and go through the glass door into the corridor. Walk
           to door no. <b>112</b>.<br />
           <br />
+          <img
+            className="keybox-img"
+            src="images/taglocks.jpg"
+            alt="How to use tags"
+          />
           To access the apartment, use the 6-digit code for the Yale smart lock.
           This code was sent in a separate message when you booked your stay.
           The code is only active during your stay.
@@ -91,9 +96,9 @@ export const CheckIn = () => {
           <br />
         </p>
         <img
-          className="keybox-img"
-          src="images/taglocks.jpg"
-          alt="How to use tags"
+          className="yaleKeypad-img"
+          src="images/yaleKeypad.jpg"
+          alt="How to open apartmentdoor"
         />
         <p>
           Please note that all entrances to the building are self-locking, so
