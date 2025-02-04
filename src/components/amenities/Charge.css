@@ -1,4 +1,4 @@
-.transportation-wrapper {
+.charge-wrapper {
     background-color: rgb(140, 187, 212);
     display: flex;
     justify-content: center;
@@ -6,7 +6,11 @@
     padding-bottom: 50px;
 }
 
-.transportation-info {
+.charge-info h1 {
+  color: rgb(91, 88, 88);
+}
+
+.charge-info {
   width: 90%;
   box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
  text-align: center;
@@ -19,24 +23,13 @@
   box-sizing: border-box;
 }
 
-.transportation-info a {
-  margin: 10px;
-}
-.transportation-info p {
-  text-align: left;
+.charge-info p {
+ 
   padding: 10px;
 }
 
-.remotes-img {
-  width: 95%; 
-  height: auto; 
-  border-radius: 8px;
-  margin-bottom: 30px;
-  margin-top: 30px;
-}
-
 @media screen and (min-width: 701px) {
-  .transportation-info {
+  .charge-info {
     width: 630px;
   }
 } 

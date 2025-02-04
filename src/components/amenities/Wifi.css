@@ -1,4 +1,4 @@
-.balcony-wrapper {
+.wifi-wrapper {
     background-color: rgb(140, 187, 212);
     display: flex;
     justify-content: center;
@@ -6,7 +6,11 @@
     padding-bottom: 50px;
 }
 
-.balcony-info {
+.wifi-info h1{
+  color: rgb(91, 88, 88);
+}
+
+.wifi-info {
   width: 90%;
   box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
  text-align: center;
@@ -19,7 +23,7 @@
   box-sizing: border-box;
 }
 
-.balcony-info p {
+.wifi-info p {
   padding: 10px;
 }
 
@@ -32,7 +36,7 @@
 }
 
 @media screen and (min-width: 701px) {
-  .balcony-info {
+  .wifi-info {
     width: 630px;
   }
 } 

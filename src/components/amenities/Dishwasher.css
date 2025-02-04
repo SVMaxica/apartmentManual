@@ -1,4 +1,4 @@
-.charge-wrapper {
+.dishwasher-wrapper {
     background-color: rgb(140, 187, 212);
     display: flex;
     justify-content: center;
@@ -6,7 +6,11 @@
     padding-bottom: 50px;
 }
 
-.charge-info {
+.dishwasher-info h1 {
+  color: rgb(91, 88, 88);
+}
+
+.dishwasher-info {
   width: 90%;
   box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
  text-align: center;
@@ -19,13 +23,20 @@
   box-sizing: border-box;
 }
 
-.charge-info p {
- 
+.dishwasher-info p {
   padding: 10px;
 }
 
+.dishwasher-img {
+  width: 95%; 
+  height: auto; 
+  border-radius: 8px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
 @media screen and (min-width: 701px) {
-  .charge-info {
+  .dishwasher-info {
     width: 630px;
   }
 } 

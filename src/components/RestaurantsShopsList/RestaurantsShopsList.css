@@ -10,10 +10,12 @@
 .restaurantsShopsList-wrapper h1 {
   text-align: center;
   margin-top: 50px;
+  color: rgb(91, 88, 88);
 }
 
 .restaurantsShopsList-wrapper h2 {
   margin-left: 20px;
+  color: rgb(91, 88, 88);
 }
 
 .restaurantsShopsList-wrapper h3 {

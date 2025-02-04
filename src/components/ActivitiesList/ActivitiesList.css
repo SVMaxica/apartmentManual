@@ -10,12 +10,14 @@
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
+  color: rgb(91, 88, 88);
 }
 
 .activitiesList-wrapper h2 {
   margin-left: 20px;
   margin-top: 0;
   margin-bottom: 0;
+  color: rgb(91, 88, 88);
 }
 
 .activitiesList-wrapper h3 {
@@ -29,6 +31,13 @@
   margin-top: 3px;
   margin-bottom: 5px;
 }
+
+li:hover img {
+  transform: translateX(3px) scale(1.5);
+  transition: transform 0.3s ease-out, filter 0.3s ease-out;
+  filter: brightness(1.1);
+}
+
 
 @media screen and (min-width: 701px) {
 

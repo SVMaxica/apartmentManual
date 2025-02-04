@@ -6,6 +6,10 @@
     padding-bottom: 50px;
   }
 
+  .grocery-store h1 {
+    color: rgb(91, 88, 88);
+  }
+
 .grocery-store {
     width: 90%;
     box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
