@@ -101,7 +101,7 @@ export const CheckIn = () => {
           alt="How to open apartmentdoor"
         />
         <p>
-          Please note that all entrances to the building are self-locking, so
+          Please note that all entrances are self-locking, so
           make sure to always carry your key tag with you to re-enter the house.
           For your convenience, an additional set of keys is provided in the
           apartment, located next to the door.
