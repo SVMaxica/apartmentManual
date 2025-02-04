@@ -11,7 +11,7 @@ import { Pool } from './components/amenities/Pool';
 import { Tennis } from './components/amenities/Tennis';
 import { Garbage } from './components/amenities/Garbage';
 import { StarterPack } from './components/amenities/StarterPack';
-import { About } from './components/about/About';
+import { About } from './components/About/About';
 import { GroceryStore } from './components/amenities/GroceryStore';
 import { Tv } from './components/amenities/Tv';
 import { Charge } from './components/amenities/Charge';
@@ -47,7 +47,7 @@ export const App = () => {
       {activeComponent === 'Dishwasher' && <Dishwasher />}
       {activeComponent === 'Laundry' && <Laundry />}
       {activeComponent === 'Wifi' && <Wifi />}
-      {activeComponent === 'Transportations' && <Transportation />}
+      {activeComponent === 'Transportation' && <Transportation />}
       {activeComponent === 'Barbeque' && <Barbeque />}
       <Footer />
     </div>
