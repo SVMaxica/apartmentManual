@@ -47,7 +47,7 @@ export const App = () => {
       {activeComponent === 'Dishwasher' && <Dishwasher />}
       {activeComponent === 'Laundry' && <Laundry />}
       {activeComponent === 'Wifi' && <Wifi />}
-      {activeComponent === 'Transportation' && <Transportation />}
+      {activeComponent === 'Transportations' && <Transportation />}
       {activeComponent === 'Barbeque' && <Barbeque />}
       <Footer />
     </div>
