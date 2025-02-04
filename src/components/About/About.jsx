@@ -3,8 +3,8 @@ import { useState, useRef } from 'react';
 import pool from '/images/splash.png';
 import sunset from '/images/sunset3.jpeg';
 import table from '/images/table.jpg';
-import ActivitiesList from '../activitiesList/ActivitiesList';
-import RestaurantsShopsList from '../restaurantsShopsList/RestaurantsShopsList';
+import ActivitiesList from '../ActivitiesList/ActivitiesList';
+import RestaurantsShopsList from '../RestaurantsShopsList/RestaurantsShopsList';
 
 export const About = () => {
   // State to manage the visibility of ActivitiesList
