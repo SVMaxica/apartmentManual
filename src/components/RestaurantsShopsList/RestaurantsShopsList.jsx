@@ -34,6 +34,13 @@ const restaurants = [
     category: 'Kids Favorites',
     items: [
       {
+        name: 'Food market',
+        description:
+          'At Visby strandby they have a foodmarket with 6-8 foodtrucks that serve dishes from all over the world.',
+        location:
+          'https://www.google.com/maps/place/Visby+Strandby/@57.654919,18.2887054,14z/data=!4m13!1m2!2m1!1snorderstrands+camping!3m9!1s0x46f7a94e00bf9ba7:0xda97a26d0fb3ee1d!5m2!4m1!1i2!8m2!3d57.6549349!4d18.3078872!15sChVub3JkZXJzdHJhbmRzIGNhbXBpbmdaFyIVbm9yZGVyc3RyYW5kcyBjYW1waW5nkgEPY290dGFnZV92aWxsYWdlmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU0zT1ZsTFRsRkJFQUWqAUsQASoLIgdjYW1waW5nKA8yHxABIhts4boNG-mVVCk1fm1YXEXAeXZJN-GRGXXm8xUyGRACIhVub3JkZXJzdHJhbmRzIGNhbXBpbmfgAQD6AQQIABAt!16s%2Fg%2F1tgh67t5?entry=ttu&g_ep=EgoyMDI1MDYyNi4wIKXMDSoASAFQAw%3D%3D',
+      },
+      {
         name: 'Mels Diner',
         description: 'Visbys most popular burgers with a great Rockabilly wibe',
         location: 'https://maps.app.goo.gl/cz8MhKnxZXuxMX6E8',
