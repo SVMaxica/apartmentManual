@@ -49,6 +49,13 @@ export const CheckIn = () => {
           The code is only active during your stay.
           <br />
           <br />
+          If you enter the wrong code 3 times, the code will be deactivated for
+          5 minutes for security reasons. If you experience any issues with the
+          lock, you can also reach us through the digital doorbell next to the
+          front door. Just press the green button and I will answer and can also
+          unlock the door for you remotely.
+          <br />
+          <br />
         </p>
         <img
           className="yaleKeypad-img"
