@@ -124,3 +124,24 @@
     }
 
   }
+
+ /* @media screen and (min-width: 1000px) {
+
+    .about-wrapper {
+        flex-direction: column;
+        width: 360px;
+        height: 900px;
+    }
+
+    .page-wrapper {
+        display: flex;
+        gap: 20px;
+        flex-direction: row;
+        align-items: center;
+         justify-content: center;
+    }
+
+    .about-img {
+        height: 30%;
+    }
+   }  */

@@ -11,7 +11,7 @@ export const CheckOut = ({ setActiveComponent }) => {
         <h1>CheckOut</h1>
         <ul>
           <li>
-            The latest time for checkout is at <b>11:00</b> on the day of
+            The latest time for checkout is at <b>10:00</b> on the day of
             departure, and the supervisor will arrive shortly thereafter.
           </li>
 

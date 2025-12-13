@@ -1,5 +1,5 @@
-import "./GroceryStore.css";
-import karta from "../../../public/images/grocery-karta.png";
+import './GroceryStore.css';
+import karta from '../../assets/grocery-karta.png';
 
 export const GroceryStore = () => {
   return (
