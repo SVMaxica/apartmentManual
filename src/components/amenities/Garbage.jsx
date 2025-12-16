@@ -50,6 +50,7 @@ export const Garbage = () => {
             many of these, so it's okay to collect them for a few days.)
           </b>
         </p>
+
         <h2>In the garbage room (by the garage)</h2>
         <p>
           When you take out the garbage, please put each bag in the correct
@@ -60,6 +61,27 @@ export const Garbage = () => {
             English and Swedish names to help you find the right one:
           </b>
         </p>
+
+        <p style={{ color: '#1f3b2e', fontWeight: 'bold' }}>
+          ♻️ A quick (important) note from the housing association:
+        </p>
+        <p style={{ color: '#b22222' }}>
+          The garbage room is <b>locked</b> and opens with a <b>key tag</b>.
+          There is also a <b>camera inside</b>. This is because we’ve had major
+          issues with incorrect sorting and people leaving items that don’t
+          belong there, which has caused high extra removal costs for the
+          association.
+          <br />
+          <b>
+            Please sort carefully and only leave waste in the correct bins.
+          </b>{' '}
+          If waste is sorted incorrectly or left in the wrong place, the
+          association can identify who accessed the room and may issue a{' '}
+          <b>penalty fee (invoiced)</b>.
+          <br />
+          Thanks a lot for helping us keep things tidy and fair for everyone ❤️
+        </p>
+
         <ul>
           <li>
             <b>Compost/food waste</b> (<b>Matavfall</b>): Brown containers,
@@ -91,12 +113,14 @@ export const Garbage = () => {
             lids, and other small metal packaging.
           </li>
         </ul>
-        <p style={{ color: '#b22222', fontWeight: 'bold' }}>
-          ⚠️ Please note: If waste is sorted incorrectly or put in the wrong
-          container, the housing association (<b>bostadsföreningen</b>) may
-          charge a penalty fee. Always double-check the labels and sort
-          carefully. Thank you!
-        </p>
+
+        {/* <p style={{ color: '#b22222', fontWeight: 'bold' }}>
+          ⚠️ Please note: If waste is sorted incorrectly, left outside the bins,
+          or put in the wrong container, the housing association (
+          <b>bostadsföreningen</b>) may charge a penalty fee. Always
+          double-check the labels and sort carefully. Thank you!
+        </p> */}
+
         <p>
           <b>
             Please remember:
@@ -125,11 +149,13 @@ export const Garbage = () => {
             </ul>
           </b>
         </p>
+
         <img
           className="garage-img"
           src="images/garagebild.png"
           alt="garbage room map"
         />
+
         <h2>Hazardous or special waste</h2>
         <p>
           <b>
