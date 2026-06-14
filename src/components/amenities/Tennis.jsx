@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import "./Tennis.css";
+import './Tennis.css';
 
 export const Tennis = () => {
   return (
@@ -7,11 +7,19 @@ export const Tennis = () => {
       <div className="tennis">
         <h1>Tennis courts</h1>
         <p>
-          We have two Tennis courts and one of the courts also has a basket
-          case. If you want to book a tennis court you can do so by writing up
-          the apartment number in the binder in the mailbox next to the blue
-          tennis court.<br></br>
-          <br></br>These are the rules for using the tennis courts:
+          We have two Tennis courts and one of the courts also has a basketball
+          hoop. If you want to book a tennis court you can do so by writing the
+          apartment number in the binder in the mailbox next to the blue tennis
+          court.
+          <br />
+          <br />
+          In the hallway of the apartment, you will find three tennis rackets
+          and a few tennis balls that you are welcome to borrow during your
+          stay. We kindly ask you to return them to the apartment when you are
+          finished using them so that future guests can enjoy them as well.
+          <br />
+          <br />
+          These are the rules for using the tennis courts:
         </p>
         <ul>
           <li>

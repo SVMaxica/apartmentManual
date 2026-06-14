@@ -19,9 +19,10 @@ export const Pool = () => {
           babypool, these showerheads are mounted on the wall of the little
           white building.<br></br>The mainpool and baby pool is open everyday
           and the smaller pool is open every other day. Open hours is mornings
-          betweeen 7.00-08.30 only for recreational swimming, from 8.30 to 20.30
-          its open for everyone with access to pool area.<br></br>These are the
-          rules for the pool area:
+          betweeen 7.30-09.00 only for recreational swimming in the large pool,
+          from 9.00 to 20.30 its open for all activities and for everyone with
+          access to pool area.<br></br>
+          <br></br>These are the rules for the pool area:
         </p>
         <ul>
           <li>
