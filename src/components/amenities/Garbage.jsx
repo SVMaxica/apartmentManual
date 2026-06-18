@@ -52,6 +52,13 @@ export const Garbage = () => {
         </p>
 
         <h2>In the garbage room (by the garage)</h2>
+        <p style={{ color: '#b22222', fontWeight: 'bold' }}>
+          🔑 The garbage room is locked and opens with the key tag. Hold the key
+          tag in the middle of the keypad, around number 5, and keep it there
+          longer than you might expect (about 5–10 seconds). The lock is quite
+          slow to respond, so please do not remove the tag too quickly. Wait
+          until you hear the lock click before opening the door.
+        </p>
         <p>
           When you take out the garbage, please put each bag in the correct
           container in the garbage room.
