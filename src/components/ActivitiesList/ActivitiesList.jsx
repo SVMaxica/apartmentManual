@@ -1,4 +1,3 @@
-import React from 'react';
 import './ActivitiesList.css';
 import pinIcon from '../../assets/pin.svg';
 
@@ -138,12 +137,12 @@ const landmarks = [
 const ActivitiesList = () => {
   return (
     <div className="activitiesList-wrapper">
-      <h1>Our Top Activities Suggestions</h1>
-      <h2>Amazing Beaches</h2>
+      <h2>Our Top Activities Suggestions</h2>
+      <h3>Amazing Beaches</h3>
       <ul>
-        {beaches.map((beach, index) => (
-          <li key={index}>
-            <h3>{beach.name}</h3>
+        {beaches.map((beach) => (
+          <li key={beach.name}>
+            <h4>{beach.name}</h4>
             <p>{beach.description}</p>
             <a
               href={beach.location}
@@ -161,11 +160,11 @@ const ActivitiesList = () => {
           </li>
         ))}
       </ul>
-      <h2>Go for a Hike</h2>
+      <h3>Go for a Hike</h3>
       <ul>
-        {hikes.map((hike, index) => (
-          <li key={index}>
-            <h3>{hike.name}</h3>
+        {hikes.map((hike) => (
+          <li key={hike.name}>
+            <h4>{hike.name}</h4>
             <p>{hike.description}</p>
             <a
               href={hike.location}
@@ -183,11 +182,11 @@ const ActivitiesList = () => {
           </li>
         ))}
       </ul>
-      <h2>Family favorites</h2>
+      <h3>Family favorites</h3>
       <ul>
-        {familyActivities.map((activity, index) => (
-          <li key={index}>
-            <h3>{activity.name}</h3>
+        {familyActivities.map((activity) => (
+          <li key={activity.name}>
+            <h4>{activity.name}</h4>
             <p>{activity.description}</p>
             <a
               href={activity.location}
@@ -206,11 +205,11 @@ const ActivitiesList = () => {
         ))}
       </ul>
 
-      <h2>History and landmarks</h2>
+      <h3>History and landmarks</h3>
       <ul>
-        {landmarks.map((landmark, index) => (
-          <li key={index}>
-            <h3>{landmark.name}</h3>
+        {landmarks.map((landmark) => (
+          <li key={landmark.name}>
+            <h4>{landmark.name}</h4>
             <p>{landmark.description}</p>
             <a
               href={landmark.location}

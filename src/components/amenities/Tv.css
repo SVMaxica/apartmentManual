@@ -6,7 +6,7 @@
     padding-bottom: 50px;
 }
 
-.tv-info h1 {
+.tv-info h2 {
   color: rgb(91, 88, 88);
 }
 
@@ -15,9 +15,6 @@
   box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
  text-align: center;
  background: white;
-    /* padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px; */
   padding: 30px;
   border-radius: 8px; 
   box-sizing: border-box;

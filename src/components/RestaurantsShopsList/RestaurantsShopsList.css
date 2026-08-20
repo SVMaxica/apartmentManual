@@ -7,18 +7,18 @@
   padding-right: 40px;
 }
 
-.restaurantsShopsList-wrapper h1 {
+.restaurantsShopsList-wrapper h2 {
   text-align: center;
   margin-top: 50px;
   color: rgb(91, 88, 88);
 }
 
-.restaurantsShopsList-wrapper h2 {
+.restaurantsShopsList-wrapper h3 {
   margin-left: 20px;
   color: rgb(91, 88, 88);
 }
 
-.restaurantsShopsList-wrapper h3 {
+.restaurantsShopsList-wrapper h4 {
   margin-bottom: 5px;
 }
 

@@ -6,21 +6,21 @@
   width: 360px;
 }
 
-.activitiesList-wrapper h1 {
+.activitiesList-wrapper h2 {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
   color: rgb(91, 88, 88);
 }
 
-.activitiesList-wrapper h2 {
+.activitiesList-wrapper h3 {
   margin-left: 20px;
   margin-top: 0;
   margin-bottom: 0;
   color: rgb(91, 88, 88);
 }
 
-.activitiesList-wrapper h3 {
+.activitiesList-wrapper h4 {
   margin-bottom: 5px;
   margin-top: 0;
 }

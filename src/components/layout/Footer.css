@@ -20,12 +20,24 @@
 }
 
 .email-link:hover {
-  background-color: rgb(251, 172, 172);
+  background-color: #b22222;
+  color: white;
   transform: scale(1.2);
+}
+
+.email-link:focus-visible {
+  outline: 3px solid #1a5276;
+  outline-offset: 2px;
 }
 
 .copywright {
   font-size: 8px;
+}
+
+.footer-address {
+  font-size: 0.67em;
+  font-weight: bold;
+  margin: 0;
 }
 .contact {
   display: flex;

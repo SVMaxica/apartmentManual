@@ -25,11 +25,26 @@ h1 {
 }
 
 .app {
- 
+
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: whitesmoke;
+}
+
+/* main is a landmark for assistive tech only here; it must not create its
+   own box, since .app's flex layout expects About/IconsNavbar/content-div
+   to be direct flex items. */
+.app main {
+  display: contents;
+}
+
+/* Without an explicit width, .app's align-items: center shrinks this div to
+   its content instead of stretching it, which cuts off the amenity page's
+   full-bleed blue background. The instruction card itself stays centered at
+   its own fixed width via each amenity's own CSS (e.g. .balcony-info). */
+.amenity-content {
+  width: 100%;
 }
 
 

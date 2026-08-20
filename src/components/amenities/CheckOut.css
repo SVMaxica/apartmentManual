@@ -22,7 +22,7 @@ li {
   margin-bottom: 15px;
 }
 
-.check-out h1 {
+.check-out h2 {
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 40px;
@@ -43,7 +43,8 @@ li {
 }
 
 .mail-us-link:hover {
-  background-color: rgb(251, 172, 172);
+  background-color: #b22222;
+  color: white;
   transform: scale(1.2);
 }
 
@@ -58,11 +59,22 @@ li {
   padding-left: 5px;
   border-radius: 2px;
   width: 60px;
+  border: none;
+  cursor: pointer;
+  font-size: inherit;
+  font-family: inherit;
 }
 
 .link:hover {
-  background-color: rgb(251, 172, 172);
+  background-color: #b22222;
+  color: white;
   transform: scale(1.2);
+}
+
+.link:focus-visible,
+.mail-us-link:focus-visible {
+  outline: 3px solid #1a5276;
+  outline-offset: 2px;
 }
 
 

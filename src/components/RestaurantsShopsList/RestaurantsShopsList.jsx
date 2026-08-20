@@ -1,4 +1,3 @@
-import React from 'react';
 import './RestaurantsShopsList.css';
 import pinIcon from '../../assets/pin.svg';
 
@@ -114,41 +113,14 @@ const shops = [
 const RestaurantsShopsList = () => {
   return (
     <div className="restaurantsShopsList-wrapper">
-      <h1>Explore Our Favorite Places to Eat and Shop</h1>
-      {restaurants.map((category, index) => (
-        <div key={index}>
-          <h2>{category.category}</h2>
+      <h2>Explore Our Favorite Places to Eat and Shop</h2>
+      {restaurants.map((category) => (
+        <div key={category.category}>
+          <h3>{category.category}</h3>
           <ul>
-            {category.items.map((item, i) => (
-              <li key={i}>
-                <h3>{item.name}</h3>
-                <p>{item.description}</p>
-                <a
-                  href={item.location}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={`View ${category.name} on the map`}
-                >
-                  View on map
-                  <img
-                    src={pinIcon}
-                    alt="Link to map"
-                    style={{ width: '16px', height: '16px' }}
-                  />
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-      ))}
-
-      {shops.map((category, index) => (
-        <div key={index}>
-          <h2>{category.category}</h2>
-          <ul>
-            {category.items.map((item, i) => (
-              <li key={i}>
-                <h3>{item.name}</h3>
+            {category.items.map((item) => (
+              <li key={item.name}>
+                <h4>{item.name}</h4>
                 <p>{item.description}</p>
                 <a
                   href={item.location}
@@ -159,7 +131,34 @@ const RestaurantsShopsList = () => {
                   View on map
                   <img
                     src={pinIcon}
-                    alt="Link to map"
+                    alt=""
+                    style={{ width: '16px', height: '16px' }}
+                  />
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+
+      {shops.map((category) => (
+        <div key={category.category}>
+          <h3>{category.category}</h3>
+          <ul>
+            {category.items.map((item) => (
+              <li key={item.name}>
+                <h4>{item.name}</h4>
+                <p>{item.description}</p>
+                <a
+                  href={item.location}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`View ${item.name} on the map`}
+                >
+                  View on map
+                  <img
+                    src={pinIcon}
+                    alt=""
                     style={{ width: '16px', height: '16px' }}
                   />
                 </a>

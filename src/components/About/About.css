@@ -47,7 +47,7 @@
     align-items: space-between;
 }
 
-.about-text h1 {
+.about-text h2 {
     margin: 0;
     color: rgb(91, 88, 88);
     text-align: left;
@@ -81,7 +81,8 @@
 }
 
 .button:hover, .book-btn:hover {
-    background-color: rgba(239, 116, 116, 0.7);
+    background-color: #b22222;
+    color: white;
     transform: scale(1.1);
 }
 
@@ -114,7 +115,7 @@
        margin-bottom: 10px;
        font-size: large;
     }
-    .about-text h1 {
+    .about-text h2 {
        font-size: xx-large;
     }
 

@@ -34,6 +34,9 @@ export const About = () => {
     }
   };
 
+  const activitiesId = 'activities-list-region';
+  const restaurantsShopsId = 'restaurants-shops-region';
+
   return (
     <>
       <div className="page-wrapper">
@@ -42,7 +45,7 @@ export const About = () => {
             <img src={sunset} alt="sunset from balcony" />
           </div>
           <div className="about-text">
-            <h1>Amazing sunsets!</h1>
+            <h2>Amazing sunsets!</h2>
             <p>
               Do you dream of a vacation on Gotland?
               <br />
@@ -63,14 +66,19 @@ export const About = () => {
         </div>
         <div className="about-wrapper">
           <div className="about-text">
-            <h1>Morning swim in the pool!</h1>
+            <h2>Morning swim in the pool!</h2>
             <p>
               Go for a morning swim in one of the pools or the ocean, there is a
               beach in walking distance and the area offers lots of activities
               for the whole family.
             </p>
             <div className="button-wrapper">
-              <button className="button" onClick={toggleActivities}>
+              <button
+                className="button"
+                onClick={toggleActivities}
+                aria-expanded={showActivities}
+                aria-controls={activitiesId}
+              >
                 {showActivities
                   ? 'Hide Activities'
                   : 'Explore Other Activities'}
@@ -81,20 +89,29 @@ export const About = () => {
             <img src={pool} alt="pool on the roof" />
           </div>
         </div>
-        {showActivities && <ActivitiesList />}
+        {showActivities && (
+          <div id={activitiesId}>
+            <ActivitiesList />
+          </div>
+        )}
         <div className="about-wrapper">
           <div className="about-img">
-            <img src={table} alt="sunset from balcony" />
+            <img src={table} alt="Dinner table set on the balcony at sunset" />
           </div>
           <div className="about-text">
-            <h1>Experience fantastic food.</h1>
+            <h2>Experience fantastic food.</h2>
             <p>
               Eat your dinner in the sunset on the balcony or go for a walk by
               the sea to Visby old town and visit one of Gotland’s finest
               restaurants, most of them are in a 5km range.
             </p>
             <div className="button-wrapper">
-              <button className="button" onClick={toggleRestaurantsShops}>
+              <button
+                className="button"
+                onClick={toggleRestaurantsShops}
+                aria-expanded={showRestaurantsShops}
+                aria-controls={restaurantsShopsId}
+              >
                 {showRestaurantsShops
                   ? 'Hide Restaurants and Shops'
                   : 'Explore Restaurants & Shops'}
@@ -103,7 +120,7 @@ export const About = () => {
           </div>
         </div>
         {showRestaurantsShops && (
-          <div ref={restaurantsRef}>
+          <div id={restaurantsShopsId} ref={restaurantsRef}>
             <RestaurantsShopsList />
           </div>
         )}
